@@ -1,0 +1,1175 @@
+@font-face{
+    font-family: 'dolce vita heavy bold';
+    src: url('fonts/Dolce\ Vita\ Heavy\ Bold.ttf') format ('truetype');
+} 
+ 
+header,section,footer {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(imagen/fondo\ suave.jpeg); 
+    background-repeat: repeat;
+    background-size: 50%;
+}
+/* cabecera */
+header{
+    height: 300px;
+    background-color: #f7b5a5;
+}
+
+
+#botonera{
+    width: 100%;
+    height: 60px; 
+    margin-left: none;
+    display: flex; /* agregue*/
+    justify-content: center;
+    align-items: center; /*agregue*/
+
+
+    
+}
+#botonera ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+#botonera li a{
+    display: block;
+    padding: 20px 50px;
+    background-color: #f7b5a5;
+    margin: 5px;
+    text-decoration: none;
+    color: rgba(90,80,78,255);
+    text-transform: uppercase;   
+    border-radius: 5px 25px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(253, 252, 252, 0.886);
+}
+#botonera li a:hover {
+   background-color: #65bdb0; 
+}
+#texto {
+    width: 450px;
+    height: 200px;
+    float: right;
+    left: 950px;
+    margin-top: 50px;
+    margin-right: 10px;
+    font-family: dolce vita heavy bold; 
+    
+}
+h1{ color: rgba(90,80,78,255);
+text-shadow: 0px 0px 5px rgba(253, 252, 252, 0.886);
+font-size: 300%;
+font-style: italic;
+text-align: center;
+margin-top: 0;
+line-height: 100%;
+font-weight: bold;
+
+}
+#logo {
+    width: 450px;
+    height: 150px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 40px;
+        
+}
+.ajustelogo{
+    width: 100%;
+
+}
+
+/* seccion1 por que elegirnos */
+#seccion1{
+    height: 1185px;
+    background-color: #e2dad4;
+    padding-top: 5px;
+   
+}
+#detalles{
+    height: 90px;
+    width: 1200px;
+    background-color: #65bdb0;
+   
+}
+#detalles h2{
+    font-family: dolce vita heavy bold; 
+    font-size: 245%;
+    color: rgba(90,80,78,255);
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+.detalles{
+    height: 500px;
+    width: 400px;
+    background-color: aliceblue;
+    float: left;
+    margin-top:  30px;
+    margin-left: 95px;
+    padding: 20px;
+    }
+    .detalles3{
+        height: 500px;
+        width: 400px;
+        background-color: aliceblue;
+        float: left;
+        margin-top:  30px;
+        margin-right: 30px;
+        padding: 20px;
+        }
+.detalles2{
+    height: 400px;
+    width: 450px;
+    background-color: aliceblue;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    margin-left: 65px; 
+
+}
+.detalles4{
+    height: 400px;
+    width: 450px;
+    background-color: aliceblue;
+    float: left;
+    padding: 20px;
+    margin-left: 145px;
+    margin-top: 20px;
+
+}
+
+.unicas{
+   
+    width: 100%; 
+    height: 100%;
+}
+
+.textodetalle{
+    
+    float: left;
+    width: 200px;
+    height: 500px;
+    margin-top: 30px;
+    font-family: dolce vita heavy bold; 
+    font-size: 190%;
+    color: rgba(90,80,78,255);
+    text-align: center;
+    padding-top: 70px;
+    text-shadow: 5px 5px 5px  rgba;
+    line-height: 300%;
+
+}
+.textodetalle2{
+
+    float: left;
+    width: 500px;
+    height: 60px;
+    margin-left: 40px;
+    font-family: dolce vita heavy bold; 
+    font-size: 190%;
+    color: rgba(90,80,78,255);
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 5px 10px 5px rgba;
+    padding-bottom: 30px;
+
+
+}
+.textodetalle3{
+
+    float: left;
+    width: 500px;
+    height: 60px;
+    margin-left: 120px;
+    font-family: dolce vita heavy bold; 
+    font-size: 190%;
+    color: rgba(90,80,78,255);
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 5px 10px 5px rgba;
+    padding-bottom: 30px;
+
+
+}
+/* lineas */ 
+#seccion2{
+    height: 1000px;
+    background-color:  #f7b5a5;
+    padding-top: 5px;
+}
+#hist{
+    padding-top: 4px;
+    height: 90px;
+    width: 1200px;
+    background-color: #65bdb0;
+}
+
+
+#hist h2{
+    font-family: dolce vita heavy bold; 
+    font-size: 245%;
+    color: rgba(90,80,78,255);
+    text-align: center;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+#disenadora{
+    height: 500px;
+    width: 400px;
+    float: left;
+    margin-top: 20px;
+margin-left: 40px;
+position: relative;
+}
+
+.euge{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.ul{
+    list-style-type: none;
+}
+#disenadora p{
+    text-align: center;
+    color: rgba(90,80,78,255);
+    font-family: dolce vita heavy bold ;
+    position: absolute;
+    top: 20%; 
+    left: 40%;
+    transform: translateX(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+    font-size: large;
+    border-top-right-radius: 80px; 
+    border-bottom-right-radius: 15px; 
+    }
+.leer {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(90,80,78,255);
+   margin-top: 95%;
+    font-family: dolce vita heavy bold;
+    text-align: center;
+    margin-left: 35%;
+
+}
+.botoncerrar{
+    background-color: rgb(132, 130, 130);
+    color: rgba(90,80,78,255);
+     border-color: rgb(132, 130, 130);
+
+}
+
+#historia{
+    height: 400px;
+    width: 400px;
+    float: left;
+margin-top: 40px;
+margin-left: 20px;
+box-shadow: 0px 0px 5px rgba(253, 252, 252, 0.886);
+background-color: rgb(132, 130, 130);
+
+
+
+}
+#historia p{
+    text-align: justify;
+    font-family: dolce vita heavy bold;
+    padding: 10px;
+    line-height: 1.5;
+}
+.im{
+    
+    margin-top:  20px; 
+    
+}
+#mujer{ 
+    height: 300px;
+    width: 200px;
+    background-color: #aaa9a8;
+    float: right;
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 40px;
+}
+#mujer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#litte, #deco, img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding: 1px;
+    
+    
+}
+
+#litte{ 
+    height: 300px;
+    width:200px;
+    float: right;
+margin-top: 20px;
+margin-left: 5px;
+margin-right: 5px;
+background-color: #aaa9a8;
+}
+
+
+#deco{ 
+    height: 300px;
+    width: 200px;
+    float: right;
+margin-top: 10px;
+margin-left: 5px;
+margin-right: 5px;
+background-color: #aaa9a8;
+}
+
+#inspira{ 
+    height: 200px;
+    width: 200px;
+    float: right;
+margin-top: 0;
+margin-left: 5px;
+margin-right: 40px;
+padding-top: 10px;
+
+}
+/*inicio edicion popover*/
+.popover-header {
+    background-color: #65bdb0;
+    color: #333;
+    font-weight: bold;
+    font-family: dolce vita heavy bold;
+}
+
+.popover-body {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.5;
+}
+/*fin edicion popover*/
+.fondo{
+    background-color: #60524e!important;
+    padding: 10%;
+    border-color: whitesmoke;
+
+}
+#productos{
+    height: 1000px;
+    background-color: rgb(132, 130, 130);
+}
+
+
+.diseño1{
+    
+    width: 500px;
+    float:left;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 15px;
+    
+}
+.diseño2{
+    
+    width: 500px;
+    float:left;
+    margin-left: 50px;
+    margin-right: 30px;
+    margin-top: 15px;
+    
+}
+/*bootstra */
+#bootstrap{
+    background-color: #60524e;
+}
+#modulo2, #modulo3, #modulo4, #modulo5, #modulo6{
+    margin-top: 5px;
+    }
+
+#mod1col1{
+   
+background-color: #65bdb0;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.lineamujer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lineamujer p{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.vertical-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: dolce vita heavy bold;
+    font-size: 200%;
+    text-shadow: 2px 2px 5px #9f9797;
+    color: #3e3b3b;
+
+}
+
+
+#mod2col1{
+   
+    background-color: #f7b5a5;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+#mod3col1{
+   
+    background-color:  #e2dad4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#mod4col1{
+   
+    background-color: #65bdb0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+ #mod5col1{
+   
+        background-color: #f7b5a5;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+ #mod6col1{
+   
+        background-color:  #e2dad4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+
+
+#formularios{
+    
+    background-color: #f7b5a5;
+}
+h3{
+    font-family: dolce vita heavy;
+}
+
+#formulario1, #formulario2, h2{
+    font-family: dolce vita heavy;
+    
+}
+input{
+    margin-bottom: 6px;
+    border: 2px #60524e solid !important;
+}
+
+#formulario2 label input select{
+    border: 2px #60524e solid !important;
+
+}
+h5{
+    font-family: dolce vita heavy bold;
+    font-weight: bold;
+    text-align: left;
+    text-shadow: 0px 0px 5px rgba(253, 252, 252, 0.886);
+    text-transform: uppercase;
+color: #3e3b3b;
+}
+
+#linea{
+   
+    background-color: rgb(196, 195, 195);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align:left !important
+    
+}
+#linea h2 {
+    color: #60524e;
+    font-family: dolce vita heavy bold;
+    text-align: center;
+    font-size:xx-large;
+    background-color: #e2dad4;
+
+}
+#linea p {
+    font-family: dolce vita heavy bold;
+}
+
+/*pie de pagina */
+
+footer{
+    height: 350px;
+    background-color: #60524e;
+   
+}
+#pagos{
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+
+.pagos {
+    width: 100%;
+    text-transform: uppercase;
+    margin-left: 40px;
+    color: white;
+}
+.iconopago {
+display: inline-block;
+width: 20%;
+height: auto;
+margin-left: 5px;
+}
+
+#redes{
+    height: 300px;
+    width: 400px;
+    float:right;
+    margin-right: 5px;
+    margin-top: 10px;
+    color: white;
+
+}
+.tituloredes{
+  text-transform: uppercase;  
+  list-style: none;
+
+}
+
+#redes ul li {
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+}
+#redes ul li img{
+    vertical-align: left;
+    margin-right: 5px;
+    width: 30px;
+    height: auto;
+    
+}
+#ul li .maps {
+    
+
+    list-style-image: url(imagen/iconos/location2.png);
+}
+#ul li .cel{
+    list-style-image: url(imagen/iconos/phone.png);
+}
+#ul li .mail{
+    list-style-image: url(imagen/iconos/envelop.png);
+}
+#redes ul li a, #redes ul li span{
+    display: flex;
+    align-items: center;
+}
+#redes ul li a {
+    text-decoration: none; 
+    color: white; 
+    width: 25%;
+}
+.icono {
+    width: 20px;
+    height: auto;
+}
+#pagos ul li .venta {
+    
+
+    list-style-image: url(imagen/iconos/location2.png);
+    
+    
+}
+#pagos ul li a{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 10px ;
+    text-decoration: none;
+    margin-right: 10Px;
+    margin-left: 1px;
+}
+#pagos ul li a span{
+    margin-left: 10px;
+    font-size: large;
+}
+.venta{
+    list-style-type: none;
+}
+.icono{
+    display: inline-block;
+width: 15%;
+height: auto;
+margin-top: 15px;
+}
+
+/* responsil*/
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none;
+  }
+   }
+/* dispositivos de 600px a 1200px*/
+@media all and (min-width:600px) and (max-width:1200px){
+
+header,section,footer {
+    width: 600px; /* modificado*/
+}
+
+/* cabecera */
+header{
+    height: 500px;/* modifique */
+   
+}
+
+#botonera{
+    width: 80%; /* modifique */
+    height: auto;/* modifique */
+    margin-left: 0; /* modifique */
+    flex-direction: column; /*agregue*/
+    align-items: flex-start; /*agregue*/
+
+}
+.menu-toggle{
+    display: block; /*agregue*/
+    background-color: #f7b5a5; /*agregue*/
+    border: none; /*agregue*/
+    padding: 10px; /*agregue*/
+    font-size: 24px; /*agregue*/
+    cursor: pointer; /*agregue*/
+    margin: 10px 0; /*agregue*/
+}
+
+#botonera ul{
+    flex-direction: column;/* modifique */
+    display: none; /*agregue*/
+    width: 100%; /*agregue*/
+
+
+
+}
+#botonera li a {
+width: 100%;/* modifique */ /*agregue*/
+padding: 15px;
+}
+
+#botonera ul.open{
+    display: flex; /*agregue*/
+}
+
+
+#texto {
+    width: 45%; /* modifique */
+    height: 100px; /* modifique */
+   
+    
+}
+h1{ 
+
+font-size: 200%;/* modifique */
+
+
+}
+#logo {
+    width: 50%;/* modifique */
+    height: auto;/* modifique */
+  float: none;/* modifique */
+    margin-left: 5px;/* modifique */
+    margin-top: 10%;/* modifique */
+}
+
+
+/* seccion1 por que elegirnos */
+#seccion1{
+    height: 2800px;/* modifique */
+    padding-top: 5px;/* modifique */
+   
+}
+#detalles{
+    height: 100px;
+    width: 100%;/* modifique */
+
+   
+}
+#detalles h2{
+    font-size: 200%;/* modifique */
+}
+.detalles{
+    height: auto;/* modifique */
+    width: 85%; /* modifique */
+    float: none;/* modifique */
+    margin: 0 auto;/* modifique */
+    padding: 3px;/* modifique */
+
+
+    }
+.detalles2, .detalles4{
+    height: auto;/* modifique */
+    width: 75%;/* modifique */
+    float: none;/* modifique */
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 20px;
+    
+    
+}
+.detalles3{
+    height: auto;/* modifique */
+    width: 75%;/* modifique */
+    float: none;/* modifique */
+    margin: 0 auto;
+    padding: 15px;
+
+    
+}
+
+.unicas{
+   
+    width: 100%; /* modifique */
+    height: 100%;/* modifique */
+    
+}
+
+.textodetalle{
+    
+    float: none;/* modifique */
+    width: 25%;/* modifique */
+    height:auto ;/* modifique */
+    padding-top: 2px;/* modifique */
+    line-height: 200%;/* modifique */
+    display:contents; /* modifique */
+   margin: 2%;/* modifique */
+
+}
+.textodetalle2, .textodetalle3{
+
+    float: none;/* modifique */
+    width: 75%;/* modifique */
+    display: block;/* modifique */
+    margin-left: 70px;/* modifique */
+
+}
+
+/* lineas */ 
+#seccion2{
+    height: 2500px;
+
+
+}
+#linea{
+    height:auto ;/* modifique */
+    width: 90%;
+        
+}
+#disenadora{
+    height: auto;
+    width: 70%;
+    background-color: none;
+    float: none;
+    margin-top: 20px;
+margin-left: 5px;
+}
+#historia{
+    height: auto;
+    width: 80%;
+    float: none;
+
+}
+#hist{
+    
+    height: 150px;
+    width: 100%;
+}
+
+
+.euge{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    padding-top: 17px;
+}
+#disenadora p{
+    text-align: center;
+    color: #064e43;
+    font-family: dolce vita heavy bold ;
+    position: absolute;
+    top: 20%; 
+    left: 40%;
+    transform: translateX(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+    font-size: large;
+    border-top-right-radius: 80px; 
+    border-bottom-right-radius: 15px; 
+    }
+
+#mujer, #descanso, #litte, #baby, #deco, #hamme{
+    margin-left: 1%;
+    height: 200px;
+    width: 50%;
+    float: none;
+    display: block;
+    
+}
+    
+#productos{
+    height: 2000px;
+    background-color: rgb(132, 130, 130);
+}
+
+
+
+#linea{
+    margin-top: 10%;
+}
+/*pie de pagina */
+
+footer{
+    height: 350px;
+   
+}
+#pagos{
+    height: 300px;
+    width: 50%;/*modifique*/
+    float: none;/*modifique*/
+    margin-left: 0;/*modifique*/
+    margin-top:0;/*modifique*/
+    padding-top: 5%;/*modifique*/
+}
+
+.pagos {
+    width: 100%;
+    margin-left: 40px;
+   
+}
+.iconopago {
+display: inline-block;
+width: 20%;
+margin-left: 5px;
+}
+#redes{
+    height: 300px;
+    width: 50%;/*modifique*/
+    float:right;
+    margin-right:0;/*modifique*/
+    margin-top: 5%;/*modifique*/
+
+
+}
+
+
+.mail{
+    
+    font-size:smaller;/*modifique*/
+}
+
+#redes ul li a {
+    text-decoration: none; 
+    color: white; 
+    width: 20%;/*modifique*/
+}
+
+}
+
+/* dispositivos menores a 599px*/
+@media all and (max-width:599px){
+
+    header,section,footer {
+        width: 600px; /* modificado*/
+    }
+    
+    /* cabecera */
+    header{
+        height: 500px;/* modifique */
+       
+    }
+    
+    #botonera{
+        width: 80%; /* modifique */
+        height: auto;/* modifique */
+        margin-left: 0; /* modifique */
+        flex-direction: column; /*agregue*/
+        align-items: flex-start; /*agregue*/
+    
+    }
+    .menu-toggle{
+        display: block; /*agregue*/
+        background-color: #f7b5a5; /*agregue*/
+        border: none; /*agregue*/
+        padding: 10px; /*agregue*/
+        font-size: 24px; /*agregue*/
+        cursor: pointer; /*agregue*/
+        margin: 10px 0; /*agregue*/
+    }
+    
+    #botonera ul{
+        flex-direction: column;/* modifique */
+        display: none; /*agregue*/
+        width: 100%; /*agregue*/
+    
+    
+    
+    }
+    #botonera li a {
+    width: 100%;/* modifique */ /*agregue*/
+    padding: 15px;
+    }
+    
+    #botonera ul.open{
+        display: flex; /*agregue*/
+    }
+    
+    
+    #texto {
+        width: 45%; /* modifique */
+        height: 100px; /* modifique */
+       
+        
+    }
+    h1{ 
+    
+    font-size: 200%;/* modifique */
+    
+    
+    }
+    #logo {
+        width: 50%;/* modifique */
+        height: auto;/* modifique */
+      float: none;/* modifique */
+        margin-left: 5px;/* modifique */
+        margin-top: 10%;/* modifique */
+    }
+    
+    
+    /* seccion1 por que elegirnos */
+    #seccion1{
+        height: 2800px;/* modifique */
+        padding-top: 5px;/* modifique */
+       
+    }
+    #detalles{
+        height: 100px;
+        width: 100%;/* modifique */
+    
+       
+    }
+    #detalles h2{
+        font-size: 200%;/* modifique */
+    }
+    .detalles{
+        height: auto;/* modifique */
+        width: 85%; /* modifique */
+        float: none;/* modifique */
+        margin: 0 auto;/* modifique */
+        padding: 3px;/* modifique */
+    
+    
+        }
+    .detalles2, .detalles4{
+        height: auto;/* modifique */
+        width: 75%;/* modifique */
+        float: none;/* modifique */
+        margin: 0 auto;
+        padding: 15px;
+        margin-top: 20px;
+        
+        
+    }
+    .detalles3{
+        height: auto;/* modifique */
+        width: 75%;/* modifique */
+        float: none;/* modifique */
+        margin: 0 auto;
+        padding: 15px;
+    
+        
+    }
+    
+    .unicas{
+       
+        width: 100%; /* modifique */
+        height: 100%;/* modifique */
+        
+    }
+    
+    .textodetalle{
+        
+        float: none;/* modifique */
+        width: 25%;/* modifique */
+        height:auto ;/* modifique */
+        padding-top: 2px;/* modifique */
+        line-height: 200%;/* modifique */
+        display:contents; /* modifique */
+       margin: 2%;/* modifique */
+    
+    }
+    .textodetalle2, .textodetalle3{
+    
+        float: none;/* modifique */
+        width: 75%;/* modifique */
+        display: block;/* modifique */
+        margin-left: 70px;/* modifique */
+    
+    }
+    
+    /* lineas */ 
+    #seccion2{
+        height: 2500px;
+    
+    
+    }
+    #linea{
+        height:auto ;/* modifique */
+        width: 90%;
+            
+    }
+    #disenadora{
+        height: auto;
+        width: 70%;
+        background-color: none;
+        float: none;
+        margin-top: 20px;
+    margin-left: 5px;
+    }
+    #historia{
+        height: auto;
+        width: 80%;
+        float: none;
+    
+    }
+    #hist{
+        
+        height: 150px;
+        width: 100%;
+    }
+    
+    
+    .euge{
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        padding-top: 17px;
+    }
+    #disenadora p{
+        text-align: center;
+        color: #064e43;
+        font-family: dolce vita heavy bold ;
+        position: absolute;
+        top: 20%; 
+        left: 40%;
+        transform: translateX(-50%, -50%);
+        background-color: rgba(255, 255, 255, 0.7); /* Fondo semitransparente */
+        font-size: large;
+        border-top-right-radius: 80px; 
+        border-bottom-right-radius: 15px; 
+        }
+    
+    #mujer, #descanso, #litte, #baby, #deco, #hamme{
+        margin-left: 1%;
+        height: 200px;
+        width: 50%;
+        float: none;
+        display: block;
+        
+    }
+        
+    #productos{
+        height: 2000px;
+        background-color: rgb(132, 130, 130);
+    }
+    
+    
+    
+    #linea{
+        margin-top: 10%;
+    }
+    /*pie de pagina */
+    
+    footer{
+        height: 350px;
+       
+    }
+    #pagos{
+        height: 300px;
+        width: 50%;/*modifique*/
+        float: none;/*modifique*/
+        margin-left: 0;/*modifique*/
+        margin-top:0;/*modifique*/
+        padding-top: 5%;/*modifique*/
+    }
+    
+    .pagos {
+        width: 100%;
+        margin-left: 40px;
+       
+    }
+    .iconopago {
+    display: inline-block;
+    width: 20%;
+    margin-left: 5px;
+    }
+    #redes{
+        height: 300px;
+        width: 50%;/*modifique*/
+        float:right;
+        margin-right:0;/*modifique*/
+        margin-top: 5%;/*modifique*/
+    
+    
+    }
+    
+    
+    .mail{
+        
+        font-size:smaller;/*modifique*/
+    }
+    
+    #redes ul li a {
+        text-decoration: none; 
+        color: white; 
+        width: 20%;/*modifique*/
+    }
+    
+    }
+    
